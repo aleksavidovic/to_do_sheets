@@ -1,0 +1,33 @@
+/* Zero out margins and padding*/
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol, li, dl, dt, dd, form, a, fieldset, input, th, td
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+}
+
+body
+{
+  line-height: 1;
+  font-size: 100%;
+}
+
+/* Headings font size reset */
+h1, h2, h3, h4, h5, h6
+{
+  font-size: 100%;
+}
+
+/* Lists style reset */
+ul, ol
+{
+  list-style: none;
+}
+
+/* Anchors reset */
+a, a:hover, a:active, a:visited
+{
+  color: inherit;
+  text-decoration: none;
+}
