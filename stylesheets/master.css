@@ -1,0 +1,30 @@
+.nav
+{
+  height: 6vh;
+  width: 100%;
+  position: sticky;
+  background-color: lightblue;
+  padding-left: calc((100% - 1140px) / 2);
+  padding-right: calc((100% - 1140px) / 2);
+  text-align: right;
+  margin-bottom: 1px;
+}
+
+.nav ul li
+{
+  height: 100%;
+  display: inline-block;
+  padding-right: 2em;
+  padding-top: 3vh;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Crete Round', serif;
+}
+
+.app-heading
+{
+  font-size: 3em;
+  font-weight: 500;
+  font-family: 'Crete Round', serif;
+  font-style: italic;
+}
